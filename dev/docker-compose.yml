@@ -1,0 +1,24 @@
+version: '3'
+services:
+  postgres:
+    image: postgres:latest
+    restart: always
+    volumes:
+      - /data/animatronio/postgres:/var/lib/postgresql/data
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_USER: animatronio
+      POSTGRES_PASSWORD: animatronio
+  pgadmin:
+    links:
+    - postgres:postgres
+    image: fenglc/pgadmin4
+    restart: "unless-stopped"
+    volumes:
+    - /data/animatronio/pgadmin:/var/lib/pgadmin
+    ports:
+    - "5050:5050"
+networks:
+  postgres:
+    driver: bridge

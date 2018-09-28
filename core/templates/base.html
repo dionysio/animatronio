@@ -1,0 +1,42 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+		<meta name="author" content="Dionyz Lazar (www.dionysio.com)">
+		<meta name="google-site-verification" content="WtdDuVS73GzRqyA_HGTcHwf3Cd8-m2r-0mC8ZLeNHSg" />
+        <title>{% block title %}{% endblock %}</title>
+        <meta name="robots" content="follow, all" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="{% block meta-description %}Art pieces painted by Artificial Intelligence.{% endblock meta-description %}{% block meta-description-page %}{% endblock meta-description-page %}" />
+        <meta name="keywords" content="{% block meta-keywords %}neural, network, art, ai, deviantart, painting, custom, artwork, painted by computer{% endblock meta-keywords %}" />
+
+		<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css" integrity="sha256-VZWWO8oq84vI5Es0R/L74m09VSsVHg0sugRTBgnPZnY=" crossorigin="anonymous" />
+		<link href="{% static 'css/core.css' %}" rel="stylesheet" media="screen, projection">
+		{% block css %}{% endblock%}
+    </head>
+    <body>
+		<div id="main" class="centered">
+			{% if messages %}
+				{% for message in messages %}
+				<div class="alert {% if message.tags %}alert-{{ message.tags }}{% endif %}">
+					{{ message }}
+				</div>
+				{% endfor %}
+			{% endif %}
+			{% block content %}
+			{% endblock content %}
+		</div>
+		<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous" defer></script>
+		<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.1/imagesloaded.pkgd.min.js" integrity="sha256-zAdh941DoLFXtGUGZBEF/46kYB76aqVq3aCTjawcSws=" crossorigin="anonymous" defer></script>
+		<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/masonry/4.1.1/masonry.pkgd.min.js" integrity="sha256-smfzbGDPGmErohy6T4GYOwE4m/195BPvF80A89X23j4=" crossorigin="anonymous" defer></script>
+		<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js" integrity="sha256-fzbeRFWxDKUq4+WF3Eyv1jhRcV2hrj5LJDn2asBF6/0=" crossorigin="anonymous" defer></script>
+
+		<script type="text/javascript" src="{% static 'js/main.js' %}" defer></script>
+		<script>
+			{% block js %}{% endblock %}
+		</script>
+    </body>
+</html>

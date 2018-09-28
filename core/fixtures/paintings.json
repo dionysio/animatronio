@@ -1,0 +1,146 @@
+[
+  {
+    "model": "core.taggedpicture",
+    "pk": 1,
+    "fields": {
+      "title": "Times Square",
+      "caption": "Times Square inspired by Van Gogh",
+      "created": "2016-10-16T20:49:40.655Z",
+      "is_public": true,
+      "photo": "marked_out_IMG_20160228_15044j242.jpg",
+      "store_link": null
+    }
+  },
+  {
+    "model": "core.taggedpicture",
+    "pk": 2,
+    "fields": {
+      "title": "Lion",
+      "caption": "Inspired by abstract paintings of Michel Mastriani.",
+      "created": "2016-10-16T20:50:33.475Z",
+      "is_public": true,
+      "photo": "marked_lion.jpg",
+      "store_link": null
+    }
+  },
+  {
+    "model": "core.taggedpicture",
+    "pk": 3,
+    "fields": {
+      "title": "Magical forest",
+      "caption": "Path through a trippy forest",
+      "created": "2016-10-16T20:51:21.995Z",
+      "is_public": true,
+      "photo": "out_forest-868715.png",
+      "store_link": null
+    }
+  },
+  {
+    "model": "core.taggedpicture",
+    "pk": 4,
+    "fields": {
+      "title": "Glass LHC",
+      "caption": "Large Hadron Collider in the style of stained glass",
+      "created": "2016-10-16T20:52:07.683Z",
+      "is_public": true,
+      "photo": "marked_out.jpg",
+      "store_link": null
+    }
+  },
+  {
+    "model": "core.taggedpicture",
+    "pk": 5,
+    "fields": {
+      "title": "Basillica",
+      "caption": "Inspired by Giovanni Paolo Panini",
+      "created": "2016-10-16T20:52:37.867Z",
+      "is_public": true,
+      "photo": "marked_out_FH7lKMM.jpg",
+      "store_link": null
+    }
+  },
+  {
+    "model": "core.taggedpicture",
+    "pk": 6,
+    "fields": {
+      "title": "Harbour",
+      "caption": "Harbour first version",
+      "created": "2016-10-16T20:52:58.864Z",
+      "is_public": true,
+      "photo": "marked_outamsterdam-1150319fst.jpg",
+      "store_link": null
+    }
+  },
+  {
+    "model": "core.taggedpicture",
+    "pk": 7,
+    "fields": {
+      "title": "Via Condotti",
+      "caption": "Impressionist view of famous Via Condotti in Rome.",
+      "created": "2016-10-16T20:54:10.676Z",
+      "is_public": true,
+      "photo": "marked_out_input_0_stitch.jpg",
+      "store_link": null
+    }
+  },
+  {
+    "model": "core.taggedpicture",
+    "pk": 8,
+    "fields": {
+      "title": "Harbour v2",
+      "caption": "Inspired by Leonid Afremov",
+      "created": "2016-10-16T20:54:29.444Z",
+      "is_public": true,
+      "photo": "marked_out_Mf2VlJE.jpg",
+      "store_link": null
+    }
+  },
+  {
+    "model": "core.taggedpicture",
+    "pk": 9,
+    "fields": {
+      "title": "Red marina",
+      "caption": "",
+      "created": "2016-10-17T19:00:32.458Z",
+      "is_public": true,
+      "photo": "outt.png",
+      "store_link": null
+    }
+  },
+  {
+    "model": "core.taggedpicture",
+    "pk": 10,
+    "fields": {
+      "title": "LHC in the style of Da Vinci",
+      "caption": "Inspired by famous Da Vinci sketches",
+      "created": "2016-10-17T19:01:24.972Z",
+      "is_public": true,
+      "photo": "marked_outout.jpg",
+      "store_link": null
+    }
+  },
+  {
+    "model": "core.taggedpicture",
+    "pk": 11,
+    "fields": {
+      "title": "Red forest",
+      "caption": "Acrylic-like fall forest.",
+      "created": "2016-10-17T19:02:10.089Z",
+      "is_public": true,
+      "photo": "marked_outout_1j7pezL.jpg",
+      "store_link": null
+    }
+  },
+  {
+    "model": "core.taggedpicture",
+    "pk": 12,
+    "fields": {
+      "title": "Dark forest",
+      "caption": "Colorful forest inspired by Leonid Afremov",
+      "created": "2016-10-17T19:02:43.079Z",
+      "is_public": true,
+      "photo": "marked_outawoods-1072819.jpg",
+      "store_link": null
+    }
+  }
+]

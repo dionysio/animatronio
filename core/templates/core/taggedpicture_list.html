@@ -1,0 +1,65 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% load honeypot %}
+
+{% block title %}AI gallery{% endblock %}
+
+{% block content %}
+    <header id="intro">
+        <h2>
+        {% blocktrans %}
+        Hello there!
+        I am an Artificial Intelligence created solely for the purpose of painting called Animatronio.
+        Whoever said robots can't turn canvas into a beautiful masterpiece?
+        {% endblocktrans %}
+        <br/>
+        <span class="it">{% trans 'Only you can decide whether I am a real painter or not.' %}</span>
+        </h2>
+    </header>
+    <section id="gallery">
+        {% for picture in pictures %}
+            <div class="grid-item">
+                <a data-lightbox='gallery' href="{{ picture.photo.url }}" data-caption="{{ picture.caption }}" data-title="{{ picture.title }}">
+                    <img alt="{{picture.tag_names}}" width="275" src="{{ picture.thumb }}" />
+                </a>
+            </div>
+        {% endfor %}
+    </section>
+    <section id="gallery-pagination">
+        {% if is_paginated %}
+            <ul class="pagination">
+                {% if page_obj.has_previous %}
+                    <li><a href="/?page={{ page_obj.previous_page_number }}">&laquo;</a></li>
+                {% endif %}
+                {% for i in page_obj.paginator.page_range %}
+                    <li>
+                    {% ifequal i page_obj.number %}
+                        <a href="#" class="active">
+                    {% else %}
+                        <a href="/?page={{ i }}">
+                    {% endifequal %}
+                        {{i}}</a>
+                    </li>
+                {% endfor %}
+                {% if page_obj.has_next %}
+                    <li><a href="/?page={{ page_obj.next_page_number }}">&raquo;</a></li>
+                {% endif %}
+            </ul>
+        {% endif %}
+    </section>
+    <footer id="contact">
+        <h2 class="centered">{% trans 'Say hello!' %}</h2>
+        <form role="form" action="{% url 'contact' %}" method="post">
+            {% csrf_token %}
+            {% for field in contact_form %}
+            <div class="form-group">
+                {{ field.errors }}
+                {{ field }}
+            </div>
+            {% endfor %}
+            {% render_honeypot_field  %}
+
+            <input class="" type="submit" value="{% trans 'Send' %}">
+        </form>
+    </footer>
+{% endblock %}

@@ -1,0 +1,131 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, header, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-size: 137.5%;
+    -webkit-font-smoothing: antialiased;
+}
+#main > * {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin: 0 auto;
+    text-align: center;
+}
+#main {
+    max-width: 1170px;
+    position: relative;
+}
+#gallery {
+    border-top: 1px solid #F0F0F0;
+    opacity: 0;
+    transition:opacity 1.5s ease-in;
+}
+#gallery-pagination {
+    border-bottom: 1px solid #F0F0F0;
+}
+.centered {
+    margin: 0 auto;
+    text-align: center;
+}
+.grid-item {
+    transition: opacity 1s;
+}
+.grid-item:hover {
+    opacity: 0.7;
+}
+#intro h2 {
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.it {
+    font-style: italic;
+}
+input, textarea {
+    width: 100%;
+    margin: 8px 0;
+    padding: 12px 20px;
+    border-radius: 4px;
+}
+input[type=email], textarea {
+
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+input[type=submit] {
+    background-color: #4DBD33;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #55AE3A;
+}
+textarea {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.alert {
+    padding: 20px;
+    color: white;
+    margin-bottom: 15px;
+}
+.alert-error {
+    background-color: #CD2626;
+}
+.alert-success {
+    background-color:#4DBD33;
+}
+ul.pagination {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+ul.pagination li {display: inline;}
+
+ul.pagination li a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    -webkit-transition: background-color .25s,color .15s,box-shadow .25s,opacity 0.25s,filter 0.25s,border 0.15s;
+    transition: background-color .25s,color .15s,box-shadow .15s,opacity .25s,filter .25s,border .15s;
+}
+ul.pagination li a {
+    border: 1px solid rgba(0,0,0,0);
+}
+ul.pagination li .active {
+    border-color: #4DBD33;
+}
+ul.pagination li a:hover {
+    background-color: #55AE3A;
+}
+@media only screen and (max-width: 500px) {
+    body {
+        background-color: lightblue;
+    }
+}

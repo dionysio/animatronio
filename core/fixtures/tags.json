@@ -1,0 +1,274 @@
+[
+{
+    "model": "taggit.tag",
+    "pk": 1,
+    "fields": {
+        "name": "impressionism",
+        "slug": "impressionism"
+    }
+},
+{
+    "model": "taggit.tag",
+    "pk": 2,
+    "fields": {
+        "name": "blue",
+        "slug": "blue"
+    }
+},
+{
+    "model": "taggit.tag",
+    "pk": 3,
+    "fields": {
+        "name": "van gogh",
+        "slug": "van-gogh"
+    }
+},
+{
+    "model": "taggit.tag",
+    "pk": 4,
+    "fields": {
+        "name": "nature",
+        "slug": "nature"
+    }
+},
+{
+    "model": "taggit.tag",
+    "pk": 5,
+    "fields": {
+        "name": "lion",
+        "slug": "lion"
+    }
+},
+{
+    "model": "taggit.tag",
+    "pk": 6,
+    "fields": {
+        "name": "red",
+        "slug": "red"
+    }
+},
+{
+    "model": "taggit.tag",
+    "pk": 7,
+    "fields": {
+        "name": "fire",
+        "slug": "fire"
+    }
+},
+{
+    "model": "taggit.tag",
+    "pk": 8,
+    "fields": {
+        "name": "tripy",
+        "slug": "tripy"
+    }
+},
+{
+    "model": "taggit.tag",
+    "pk": 9,
+    "fields": {
+        "name": "forest",
+        "slug": "forest"
+    }
+},
+{
+    "model": "taggit.tag",
+    "pk": 10,
+    "fields": {
+        "name": "sci-fi",
+        "slug": "sci-fi"
+    }
+},
+{
+    "model": "taggit.tag",
+    "pk": 11,
+    "fields": {
+        "name": "collider",
+        "slug": "collider"
+    }
+},
+{
+    "model": "taggit.tag",
+    "pk": 12,
+    "fields": {
+        "name": "tech",
+        "slug": "tech"
+    }
+},
+{
+    "model": "taggit.tag",
+    "pk": 13,
+    "fields": {
+        "name": "stained glass",
+        "slug": "stained-glass"
+    }
+},
+{
+    "model": "taggit.tag",
+    "pk": 14,
+    "fields": {
+        "name": "lhc",
+        "slug": "lhc"
+    }
+},
+{
+    "model": "taggit.tag",
+    "pk": 15,
+    "fields": {
+        "name": "glass",
+        "slug": "glass"
+    }
+},
+{
+    "model": "taggit.tag",
+    "pk": 16,
+    "fields": {
+        "name": "panini",
+        "slug": "panini"
+    }
+},
+{
+    "model": "taggit.tag",
+    "pk": 17,
+    "fields": {
+        "name": "basillica",
+        "slug": "basillica"
+    }
+},
+{
+    "model": "taggit.tag",
+    "pk": 18,
+    "fields": {
+        "name": "church",
+        "slug": "church"
+    }
+},
+{
+    "model": "taggit.tag",
+    "pk": 19,
+    "fields": {
+        "name": "vatican",
+        "slug": "vatican"
+    }
+},
+{
+    "model": "taggit.tag",
+    "pk": 20,
+    "fields": {
+        "name": "harbor",
+        "slug": "harbor"
+    }
+},
+{
+    "model": "taggit.tag",
+    "pk": 21,
+    "fields": {
+        "name": "amsterdam",
+        "slug": "amsterdam"
+    }
+},
+{
+    "model": "taggit.tag",
+    "pk": 22,
+    "fields": {
+        "name": "water",
+        "slug": "water"
+    }
+},
+{
+    "model": "taggit.tag",
+    "pk": 23,
+    "fields": {
+        "name": "marina",
+        "slug": "marina"
+    }
+},
+{
+    "model": "taggit.tag",
+    "pk": 24,
+    "fields": {
+        "name": "commerce",
+        "slug": "commerce"
+    }
+},
+{
+    "model": "taggit.tag",
+    "pk": 25,
+    "fields": {
+        "name": "colors",
+        "slug": "colors"
+    }
+},
+{
+    "model": "taggit.tag",
+    "pk": 26,
+    "fields": {
+        "name": "rome street",
+        "slug": "rome-street"
+    }
+},
+{
+    "model": "taggit.tag",
+    "pk": 27,
+    "fields": {
+        "name": "shopping",
+        "slug": "shopping"
+    }
+},
+{
+    "model": "taggit.tag",
+    "pk": 28,
+    "fields": {
+        "name": "drawn",
+        "slug": "drawn"
+    }
+},
+{
+    "model": "taggit.tag",
+    "pk": 29,
+    "fields": {
+        "name": "da vinci",
+        "slug": "da-vinci"
+    }
+},
+{
+    "model": "taggit.tag",
+    "pk": 30,
+    "fields": {
+        "name": "scifi",
+        "slug": "scifi"
+    }
+},
+{
+    "model": "taggit.tag",
+    "pk": 31,
+    "fields": {
+        "name": "paper",
+        "slug": "paper"
+    }
+},
+{
+    "model": "taggit.tag",
+    "pk": 32,
+    "fields": {
+        "name": "sketch",
+        "slug": "sketch"
+    }
+},
+{
+    "model": "taggit.tag",
+    "pk": 33,
+    "fields": {
+        "name": "trees",
+        "slug": "trees"
+    }
+},
+{
+    "model": "taggit.tag",
+    "pk": 34,
+    "fields": {
+        "name": "fall",
+        "slug": "fall"
+    }
+}
+]
